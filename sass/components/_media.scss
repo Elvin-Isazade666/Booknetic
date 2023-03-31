@@ -1,0 +1,886 @@
+@media (max-width: 1400px) {
+    header {
+        position: relative;
+        padding: 16px 11px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>button {
+            border: none;
+            font-size: 30px;
+            margin-right: 15px;
+            background-color: transparent;
+            outline: none;
+            display: block;
+        }
+
+        .header-right {
+            input {
+
+                display: block;
+            }
+
+            button {
+                width: 61%;
+
+                span {
+                    display: none;
+                }
+            }
+
+        }
+    }
+
+    #medium {
+        .container {
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+
+    #testiomonials {
+        .slideshow {
+            height: 487px;
+
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    #wordpress {
+        .wordpress {
+            grid-template-rows: 197px 160px 130px;
+
+            h1 {
+                font-size: 48px;
+            }
+        }
+    }
+
+    #favorite {
+        .why-booknetic {
+            column-gap: 40px;
+
+            .why-booknetic-content {
+                p:nth-child(3) {
+                    width: 100%;
+                }
+
+                h1 {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #medium {
+        .container {
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    #features {
+        .main_content {
+            .photos {
+                .google {
+                    width: 342px;
+                }
+            }
+        }
+    }
+
+    header {
+        .header-right {
+            button {
+                i {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #wordpress {
+        .wordpress {
+            grid-template-rows: 150px 160px 130px;
+
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+
+    #favorite {
+        .why-booknetic {
+            .why-booknetic-image {
+                grid-template-columns: repeat(auto-fill, minmax(162px, 1fr));
+            }
+
+            .why-booknetic-content {
+                p:nth-child(1) {
+                    font-size: 13px;
+                }
+
+                p:nth-child(3) {
+                    width: 100%;
+                    font-size: 13px;
+                }
+
+                h1 {
+                    width: 100%;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+
+    #medium {
+        .container {
+            p {
+                font-size: 11px;
+            }
+        }
+
+        .bloger {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 500px 500px 500px;
+
+            .cart_medium:nth-child(1) {
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }
+
+            .cart_medium:nth-child(2) {
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+
+            .cart_medium:nth-child(3) {
+                grid-column: 1/2;
+                grid-row: 2/3;
+
+            }
+
+            .cart_medium:nth-child(4) {
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+
+            .cart_medium:nth-child(5) {
+                grid-column: 1/2;
+                grid-row: 3/4;
+
+            }
+
+            .cart_medium:nth-child(6) {
+                grid-column: 2/3;
+                grid-row: 3/4;
+            }
+
+        }
+    }
+
+    #testiomonials {
+        .slideshow {
+            height: 623px;
+        }
+    }
+
+    #features {
+        .feature_header {
+            .cubic {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    header {
+        .header-left {
+            gap: 15px;
+
+            nav {
+                ul {
+                    li {
+                        a {
+                            padding: 10px;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .header-right {
+            input {
+                width: 43%;
+            }
+
+            button {
+                padding: 12px 25px;
+            }
+
+            label {
+                left: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #wordpress {
+        &::before {
+            width: 100vw;
+        }
+
+        .wordpress {
+            grid-template-columns: none;
+            grid-template-rows: 108px 315px 149px 138px;
+            justify-items: center;
+            text-align: center;
+
+            h1 {
+                font-size: 35px;
+                grid-row: 1/2;
+            }
+
+            .wordpress-picture {
+                grid-row: 2/3;
+
+            }
+        }
+    }
+
+    #favorite {
+        height: 1376px;
+
+        .carousel-1 {
+            display: block;
+            grid-row: 2/3;
+
+            .owl-dots {
+                display: none;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .why-booknetic {
+            grid-template-columns: 600px;
+            grid-template-rows: 200px 700px 382px;
+            column-gap: 0px;
+            justify-content: center;
+
+            .why-booknetic-image {
+                display: none;
+            }
+
+            .why-booknetic-thread {
+                grid-row: 3/4;
+                grid-column: 1/-1;
+            }
+
+            .why-booknetic-content {
+                grid-row: 1/2;
+                grid-column: 1/-1;
+                text-align: center;
+
+                p:nth-child(1) {
+                    font-size: 13px;
+                }
+
+                p:nth-child(3) {
+                    width: 100%;
+                    font-size: 13px;
+                }
+
+                h1 {
+                    width: 100%;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+
+    #end {
+        .end-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .end-navigation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .end-support {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .end-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .end-copy {
+            display: flex;
+            justify-content: center;
+        }
+
+        .end-social {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    #answer {
+        background: #fff;
+    }
+
+    #integrations {
+        .owl-carousel {
+            display: block;
+        }
+
+        .main_carousel {
+            display: none;
+        }
+    }
+
+    #testiomonials {
+        .slideshow {
+            height: 623px;
+        }
+    }
+
+    #customers {
+        .trusted {
+            h1 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    header {
+        .header-left {
+            nav {
+                display: none;
+            }
+        }
+
+        .header-right {
+            label {
+                left: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #wordpress {
+        &::before {
+            width: 100vw;
+        }
+
+        .wordpress {
+            grid-template-columns: none;
+            grid-template-rows: 108px 315px 149px 138px;
+            justify-items: center;
+            text-align: center;
+
+            h1 {
+                font-size: 30px;
+                grid-row: 1/2;
+            }
+
+            .wordpress-picture {
+                grid-row: 2/3;
+
+            }
+        }
+    }
+
+    #favorite {
+        height: 1220px;
+        ;
+
+        .carousel-1 {
+            display: block;
+            grid-row: 2/3;
+
+            .owl-dots {
+                display: none;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .why-booknetic {
+            grid-template-columns: 320px;
+            grid-template-rows: 200px 424px 382px;
+            column-gap: 0px;
+            justify-content: center;
+
+            .why-booknetic-image {
+                display: none;
+            }
+
+            .why-booknetic-thread {
+                grid-row: 3/4;
+                grid-column: 1/-1;
+            }
+
+            .why-booknetic-content {
+                grid-row: 1/2;
+                grid-column: 1/-1;
+                text-align: center;
+
+                p:nth-child(1) {
+                    font-size: 13px;
+                }
+
+                p:nth-child(3) {
+                    width: 100%;
+                    font-size: 13px;
+                }
+
+                h1 {
+                    width: 100%;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+
+    #faq {
+        .accordion_faq {
+            .accordion_faq_item {
+                .accordion_faq_title {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+
+                .accordion_faq_content {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    #blog {
+        .pagination {
+            ul {
+                gap: 11px;
+            }
+        }
+    }
+
+    #end {
+        .end-header {
+            button {
+                width: 100%;
+            }
+        }
+
+        .end-logo {
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+
+    #medium {
+        .owl-item {
+            .bloger-photo {
+                width: 38%;
+            }
+
+            .medium-photo {
+                width: 38%;
+            }
+
+            .linkedin-photo {
+                width: 60%;
+            }
+
+            .user-photo {
+                width: 14%;
+            }
+
+            .cart_medium {
+                .cart_medium_top {
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+
+        .owl-dots {
+            display: none;
+        }
+
+        padding: 0px;
+
+        .medium-one {
+            display: none;
+        }
+
+        .medium-two {
+            display: block;
+            margin-bottom: 40px;
+        }
+    }
+
+    #businnes {
+        .container {
+            .row:nth-child(2) {
+                row-gap: 12px;
+            }
+        }
+    }
+
+    #testiomonials {
+        .slideshow {
+            height: 563px;
+
+            .prev {
+                top: 90%;
+                left: 100px;
+            }
+
+            .next {
+                top: 90%;
+                right: 100px
+            }
+
+            .slideshow_inner {
+                .slideshow_item {
+                    .far {
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+
+    #features {
+        .feature_header {
+            .content {
+                width: 278px;
+            }
+        }
+
+        .main_content {
+            .photos {
+                .google {
+                    width: 220px;
+                }
+
+                .google-logo {
+                    width: 110px;
+                }
+            }
+        }
+
+        .all_features {
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    #customers {
+        .slider {
+            .slides {
+                gap: 20px;
+            }
+        }
+    }
+
+    header {
+        padding: 16px 9px;
+        background-color: #fff;
+
+        &>button {
+            border: none;
+            font-size: 30px;
+            margin-right: 15px;
+            background-color: transparent;
+            outline: none;
+            display: block;
+        }
+
+        .header-right {
+            input {
+                visibility: hidden;
+            }
+
+            button {
+                width: 61%;
+
+                span {
+                    display: none;
+                }
+            }
+
+            label {
+                left: 82px;
+                cursor: pointer;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    #testiomonials {
+        .slideshow {
+            height: 74vh;
+
+            .prev {
+                left: 100px;
+            }
+
+            .next {
+                right: 100px;
+            }
+        }
+    }
+
+    #features {
+        .main_content {
+            .photos {
+                .google {
+                    width: 155px;
+                }
+            }
+
+            .photos_content {
+                padding: 30px;
+            }
+        }
+    }
+
+    header {
+        .header-right {
+            label {
+                left: 33px;
+            }
+
+            button {
+                padding: 12px 9px;
+            }
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    #blog {
+        .video-container {
+            grid-template-columns: repeat(auto-fill, minmax(297px, 1fr));
+        }
+    }
+
+    #testiomonials {
+        .slideshow {
+            height: 95vh;
+
+            .prev {
+                top: 94%;
+            }
+
+            .next {
+                top: 94%;
+            }
+        }
+    }
+
+    header {
+        &>button {
+            font-size: 27px;
+        }
+
+        .header-right {
+            button {
+                padding: 12px 3px;
+            }
+
+            label {
+                font-size: 21px;
+            }
+        }
+
+        .header-left {
+            .logo {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 280px) {
+    #wordpress {
+        .wordpress {
+            grid-template-rows: 108px 240px 194px 138px;
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    #favorite {
+        height: 1120px;
+
+        .why-booknetic {
+            grid-template-columns: 260px;
+            grid-template-rows: 200px 361px 382px;
+
+            .carousel-1 {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #blog {
+        .video-container {
+            grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+
+            .main-video {
+                .video-bottom {
+                    h4 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        .blog-header {
+            p {
+                font-size: 10px;
+            }
+        }
+
+        .pagination {
+            ul {
+                gap: 4px;
+            }
+        }
+    }
+
+    #answer {
+        .accordion {
+            .accordion_item {
+                .accordion_title {
+                    p {
+                        font-size: 17px;
+                    }
+                }
+
+                .accordion_content {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    #testiomonials {
+        .slideshow {
+            .prev {
+                top: 106%;
+                left: 42px;
+            }
+
+            .next {
+                top: 106%;
+                right: 42px;
+            }
+        }
+    }
+
+    #features {
+        .feature_header {
+            .content {
+                width: 242px;
+            }
+        }
+
+        .main_content {
+            .photos {
+                .google {
+                    width: 155px;
+                }
+            }
+
+            .photos_content {
+                padding: 20px;
+            }
+        }
+    }
+
+    header {
+        &>button {
+            font-size: 20px;
+        }
+
+        .header-right {
+            button {
+                font-size: 11px;
+            }
+
+            label {
+                font-size: 18px;
+            }
+        }
+    }
+}

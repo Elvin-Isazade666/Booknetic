@@ -1,0 +1,6 @@
+@mixin setTransition($type,$value,$speed){
+    -webkit-transition: $type $value $speed;
+    -ms-transition: $type $value $speed;
+    -moz-transition: $type $value $speed;
+    transition: $type $value $speed;
+}
